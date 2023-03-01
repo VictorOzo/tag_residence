@@ -1,0 +1,73 @@
+footer {
+	padding: 8vw 8vw 5vw 8vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	background-color: transparent;
+}
+footer .footlogo hr {
+	width: 120px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+footer .footIcons i {
+	padding: 5px;
+	cursor: pointer;
+	margin-left: 14px;
+	color: #d9d9d9;
+}
+footer .footer-col {
+	padding-bottom: 30px;
+}
+
+footer h3 {
+	width: 148px;
+	height: 33px;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	padding-bottom: 20px;
+	color: #ffffff;
+	background-color: transparent;
+}
+footer p {
+	width: 257px;
+	height: 44px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+	opacity: 0.73;
+	background-color: transparent;
+}
+
+footer li {
+	list-style: none;
+	color: #7b838a;
+	padding: 5px 0;
+	color: #ffffff;
+	font-size: 15px;
+	cursor: pointer;
+	opacity: 0.73;
+	transition: 0.3s ease;
+}
+
+footer .copyright {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	flex-wrap: wrap;
+	color: #ffffff;
+	opacity: 0.73;
+	background-color: transparent;
+}
+
+.copyright i {
+	color: #9e6e30;
+	cursor: pointer;
+}
+.footer-links :hover {
+	color: #ffffff;
+}

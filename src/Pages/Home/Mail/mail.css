@@ -1,0 +1,67 @@
+.mailsection {
+	position: relative;
+	background: #212421;
+	width: 815px;
+	height: 296px;
+	box-shadow: 11px 28px 36px -6px rgba(0, 0, 0, 0.29);
+	margin: auto;
+}
+.mailshadow1 {
+	position: absolute;
+	width: 242px;
+	height: 241px;
+	left: 222px;
+	background: #443e2cea;
+	border-radius: 50px;
+}
+.mailshadow2 {
+	position: absolute;
+	width: 242px;
+	height: 241px;
+	left: 900px;
+	background: #443e2cea;
+	border-radius: 50px;
+}
+.mailtext {
+	text-align: center;
+	position: relative;
+}
+.mailtext h2 {
+	font-size: 39px;
+	line-height: 47px;
+	padding-top: 50px;
+	height: 61px;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+.mailtext p {
+	line-height: 24px;
+	color: #ffffff;
+	opacity: 0.73;
+	height: 57px;
+	width: 456px;
+	margin-left: 170px;
+}
+form {
+	display: flex;
+	position: absolute;
+}
+
+input[type='text'] {
+	background: #ffffff;
+	border-radius: 7px;
+	width: 500px;
+	height: 40px;
+	margin-left: 150px;
+}
+
+input[type='submit'] {
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	left: 533px;
+	top: 3px;
+	border: none;
+	background: #9e6e30;
+	border-radius: 7px;
+}

@@ -1,0 +1,79 @@
+.hero {
+	display: flex;
+	padding: 8vw;
+	position: relative;
+	margin-bottom: 100px;
+}
+.herotext {
+	position: relative;
+	background-color: transparent;
+}
+.heroleftcircle {
+	box-sizing: border-box;
+	border-radius: 50%;
+	position: absolute;
+	width: 1000px;
+	height: 989px;
+	top: -10px;
+	left: -400px;
+	border: 105px solid rgba(158, 110, 48, 0.158);
+}
+
+.herotext h1 {
+	width: 548px;
+	height: 118px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 49px;
+	line-height: 59px;
+	color: #ffffff;
+	background-color: transparent;
+}
+.herotext h1 span {
+	color: #9e6e30;
+	background-color: transparent;
+}
+
+.herotext p {
+	padding-top: 15px;
+	background-color: transparent;
+	width: 343px;
+	height: 54px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 0.7);
+}
+.herotext hr {
+	width: 88px;
+	border: 1px solid #ffffff;
+}
+
+button {
+	cursor: pointer;
+	margin-top: 15px;
+	width: 120px;
+	height: 44px;
+	border-radius: 8px;
+	color: #9e6e30;
+	border: 2px solid #fff;
+}
+.heroimg {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	position: relative;
+}
+
+.heroimg1 {
+	width: 550px;
+	grid-column: 3 / span 3;
+	grid-row: 1 / span 3;
+}
+
+.heroimg2 {
+	grid-column: 1 / span 2;
+	grid-row: 2 / span 3;
+}

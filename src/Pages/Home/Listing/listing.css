@@ -1,0 +1,105 @@
+.listingtext {
+	text-align: center;
+	margin: 0 5px;
+}
+
+.listingtext h2 {
+	height: 65px;
+	font-size: 39px;
+	line-height: 47px;
+	color: #ffffff;
+}
+.listingtext p {
+	width: 30%;
+	margin: auto;
+	margin-top: 15px;
+	height: 81px;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 0.7);
+	background-color: transparent;
+}
+
+.listingtext hr {
+	width: 25%;
+	margin: auto;
+	border: 1px solid #ffffff;
+}
+.listitem {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 40px;
+}
+
+.listings img {
+	width: 380.44px;
+	height: 396.33px;
+}
+.listdetails h2 {
+	width: 422.5px;
+	height: 64.5px;
+	font-size: 28.9768px;
+	line-height: 35px;
+	color: #ffffff;
+	position: relative;
+	background-color: transparent;
+}
+.listdetails p {
+	margin-top: 12px;
+	width: 375.76px;
+	height: 96.28px;
+	font-size: 14.9558px;
+	line-height: 22px;
+	color: #ffffff;
+	opacity: 0.73;
+	background-color: transparent;
+}
+.listlink {
+	width: 200px;
+	display: flex;
+}
+.listlink h3 {
+	width: 141.15px;
+	height: 24.3px;
+	font-size: 23.3684px;
+	line-height: 28px;
+	color: #ffffff;
+	margin-right: 150px;
+	position: relative;
+}
+.listlink a {
+	position: relative;
+	float: right;
+	cursor: pointer;
+	color: #ffffff;
+	padding: 20px 23px;
+	text-decoration: none;
+	background: #9e6e30;
+	border-radius: 13px;
+}
+.listshadow {
+	position: absolute;
+	background-color: transparent;
+	width: 1056px;
+	height: 989px;
+	left: -825px;
+	border-radius: 50%;
+	border: 105px solid rgba(158, 110, 48, 0.062);
+}
+.listarrows {
+	margin: 50px;
+	margin-left: 150px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.listarrows i {
+	position: relative;
+	cursor: pointer;
+	color: #9e6e30;
+}
+.listarrows :hover{
+	color: #ffffff;
+	cursor: pointer;
+}
