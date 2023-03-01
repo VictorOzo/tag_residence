@@ -48,6 +48,7 @@
 	color: rgba(255, 255, 255, 0.7);
 }
 .herotext hr {
+	margin: 0;
 	width: 88px;
 	border: 1px solid #ffffff;
 }
